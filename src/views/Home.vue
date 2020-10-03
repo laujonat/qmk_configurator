@@ -13,7 +13,7 @@
 // @ is an alias to /src
 import Main from '@/components/Main';
 import Keycodes from '@/components/Keycodes';
-
+console.log('keycodes', Keycodes);
 export default {
   name: 'configurator',
   components: {

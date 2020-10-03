@@ -477,6 +477,7 @@ function getExclusionList() {
     'fortitude60',
     'getta25',
     'hadron',
+    'hakkei/ryval/v1',
     'handwired/bluepill',
     'handwired/dactyl_manuform',
     'handwired/onekey',

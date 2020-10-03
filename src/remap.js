@@ -71,6 +71,12 @@ const lookup = {
       LAYOUT: 'LAYOUT_all'
     }
   },
+  'hakkei/ryvalv1': {
+    target: 'hakkei/ryval_ver1',
+    layouts: {
+      LAYOUT: 'LAYOUT_65_ansi_blocker'
+    }
+  },
   'kbdfans/kbd67mkiirgb': {
     target: 'kbdfans/kbd67/mkiirgb',
     layouts: {

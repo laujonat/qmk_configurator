@@ -112,10 +112,12 @@ export default {
       return this.keyboard === this.configuratorSettings.favoriteKeyboard;
     },
     realKeymapName() {
+      console.info('REAL KEYMAP NAME', this.$store.getters['app/keymapName']);
       return this.$store.getters['app/keymapName'];
     },
     keyboard: {
       get() {
+        console.info(this.$store);
         return this.$store.state.app.keyboard;
       },
       set(value) {
@@ -271,6 +273,7 @@ export default {
     initializeKeyboards() {
       console.info(`initializeKeyboards: ${this.keyboard}`);
       let _keyboard = '';
+      console.log(this.$route);
       if (this.$route.query) {
         let filter = this.$route.query.filter;
         if (!isUndefined(filter)) {
